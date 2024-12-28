@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    display: grid;
+    justify-content: center;
+}
+
+/* Main */
+div{
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+    width: 380px;
+    background-color:rgb(255, 255, 255,0.1);
+    border-radius: 10px;
+    gap: 10px;
+}
+
+/* Image */
+img{
+    width: 100px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+h1{
+    font-family: Inter-semibold;
+    color: white;
+    font-size: 23px;
+}
+h3{
+    color: rgb(170, 255, 0);
+    font-family: Inter-semibold;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+p{
+    color: white;
+    font-family: Inter-regular;
+    margin: 10px 0;
+    font-size: 15px;
+}
+a{
+    height: 40px;
+    width: 300px;
+    background-color: rgb(255, 255, 255,.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-family: Inter-semibold;
+    font-size: 13px;
+}
+
+a:hover{
+    background-color: rgb(170, 255, 0);
+    color: black;
+    cursor:black;
+}
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: Inter-bold;
+    src: url(assets/fonts/static/Inter-Bold.ttf);
+}
+@font-face {
+    font-family:Inter-regular ;
+    src: url(assets/fonts/static/Inter-Regular.ttf);
+}
+@font-face {
+    font-family:Inter-semibold;
+    src: url(assets/fonts/static/Inter-SemiBold.ttf);
+}
+
+
+
+@media screen and (max-width:400px) {
+    div{
+        height: 550px;
+        width: 330px;
+    }
+    img{
+        width: 80px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    h3{
+        font-size: 13px;
+    }
+    p{
+        font-size: 13px;
+    }
+    a{
+        height: 38px;
+        width: 280px;
+        font-size: 11px;
+        margin-top: 3px;border-radius: 5px;
+    }
+}
